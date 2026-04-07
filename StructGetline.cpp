@@ -26,8 +26,8 @@ int main(){
     cout << endl;
     //Menampilkan isi obyek
     cout << "Nama : " << mhs.nama << endl;
-    cout << "Alamat : " << mhs[i].alamat.desa << endl;
-    cout << "Alamat : " << mhs[i].alamat.kota << endl;
+    cout << "Alamat Desa: " << mhs.alamat.desa << endl;
+    cout << "Alamat Kota: " << mhs.alamat.kota << endl;
     cout << "Umur : " << mhs.umur << endl;
     cout << endl;
 }
