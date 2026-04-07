@@ -18,8 +18,11 @@ int main(){
     cout << "Umur: ";
     cin >> mhs.umur;
     cout << endl;
-    
-    x = dataku[2]*3;
+    //Menampilkan isi obyek
+    cout << "Nama : " << mhs.nama << endl;
+    cout << "Alamat : " << mhs.alamat << endl;
+    cout << "Umur : " << mhs.umur << endl;
+    cout << endl;
     //Cara menulis atau mengisi array
     dataku[2] = 600;
     cout << "Data ke - 3 yang baru : " << dataku[2]<<endl;
