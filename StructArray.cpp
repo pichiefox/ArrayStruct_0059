@@ -29,8 +29,11 @@ int main(){
     }
     cout << endl;
     //Menampilkan isi obyek
-    cout << "Nama : " << mhs.nama << endl;
-    cout << "Alamat : " << mhs.alamat << endl;
-    cout << "Umur : " << mhs.umur << endl;
-    cout << endl;
+    for(int i = 0; i<= 2; i++)
+    {
+    cout << "Nama : " << mhs[i].nama << endl;
+    cout << "Alamat : " << mhs[i].alamat.desa << endl;
+    cout << "Alamat : " << mhs[i].alamat.kota << endl;
+    cout << "Umur : " << mhs[i].umur << endl;
+    }
 }
