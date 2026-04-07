@@ -8,7 +8,9 @@ struct orang{
 };
 
 int main(){
-    //Deklarasi Array dengan inisialisasi
+    //Deklarasi obyek dari struct orang
+    orang mhs;
+    
     int dataku[5] = {10, 20, 30, 40, 50};
     //Deklarasi tanpa inisialisasi
     int datamu[5];
