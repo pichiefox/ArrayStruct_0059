@@ -5,7 +5,7 @@ struct DetailAlamat{
     string desa;
     string kota;
 };
-Struct orang{
+struct orang{
     string nama; 
     DetailAlamat alamat;
     int umur;
