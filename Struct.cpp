@@ -10,15 +10,15 @@ struct orang{
 int main(){
     //Deklarasi obyek dari struct orang
     orang mhs;
+    //Isi Objek
+    cout << "Nama Mahasiswa: ";
+    cin >> mhs.nama;
+    cout << "Alamat Asal: ";
+    cin >> mhs.alamat;
+    cout << "Umur: ";
+    cin >> mhs.umur;
+    cout << endl;
     
-    int dataku[5] = {10, 20, 30, 40, 50};
-    //Deklarasi tanpa inisialisasi
-    int datamu[5];
-    int x;
-    //Cara membaca array dataku
-    cout << "Data ke - 3 : " << dataku[2]<<endl;
-
-    //Operasi Matematika
     x = dataku[2]*3;
     //Cara menulis atau mengisi array
     dataku[2] = 600;
